@@ -1,0 +1,3 @@
+FROM python:3
+COPY hello-green.py /hello-green.py
+CMD python3 /hello-green.py
